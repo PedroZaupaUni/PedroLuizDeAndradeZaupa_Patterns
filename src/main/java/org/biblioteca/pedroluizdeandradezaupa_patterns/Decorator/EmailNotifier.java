@@ -1,0 +1,8 @@
+package org.biblioteca.pedroluizdeandradezaupa_patterns.Decorator;
+
+public class EmailNotifier implements Notifier {
+    @Override
+    public void send(String message) {
+        System.out.println("Enviando EMAIL: " + message);
+    }
+}

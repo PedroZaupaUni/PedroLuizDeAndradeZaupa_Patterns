@@ -1,0 +1,7 @@
+package org.biblioteca.pedroluizdeandradezaupa_patterns.Abstract_Factory;
+
+public interface UIComponentFactory {
+    Button createButton();
+    TextField createTextField();
+    Checkbox createCheckbox();
+}
